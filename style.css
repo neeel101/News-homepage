@@ -1,0 +1,107 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+   
+    
+}
+h1, h2, h3, h4 {
+    margin: 0;
+}
+
+h1 {
+    font-size: 4rem;
+    font-family:Arial, Helvetica, sans-serif;
+    line-height: .9;
+    margin: 0;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+
+img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.nav__list {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+    margin: 1em;
+    position: sticky;
+}
+.nav__link {
+    list-style: none;
+}
+
+.row {
+    display: flex;
+    margin-bottom: 2em;
+    gap: 1rem;
+}
+
+
+.col{
+    width: 100%;
+}
+
+.first__right--button {
+    padding: .8em 1.8em;
+    background-color: rgb(236, 74, 74);
+    color: white;
+    border-color: white;
+    text-transform: uppercase;
+    letter-spacing: .3em;
+    border-radius: 100px
+}
+
+.second {
+    margin: 2em 0;
+    background-color: black;
+    color: white;
+    padding: 1em;
+    border-radius: 10px;
+}
+
+.second p, .bottom p, .first__right--text{
+    color: grey;
+    line-height: 1.6;
+}
+
+.second h2 {
+    color: rgb(231, 150, 0);
+    margin-bottom: 1em
+}
+
+ .box {
+    margin-top :1em
+}
+
+.bottom span {
+    display: inline-block;
+    font-size: 3rem;
+    color: grey;
+    opacity:0.6;
+   
+}
+
+@media(min-width: 450px) {
+    .parent, .bottom {
+        display: flex;
+        margin-bottom: 2em;
+        gap: 1rem;
+    }
+    .second {
+        margin: 0;
+    }
+}
